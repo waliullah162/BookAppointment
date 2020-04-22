@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">BookAppointment2</string>
+
+
+    <string name="dhaka_division">Dhaka</string>
+    <string name="chittagong_division">Chittagong</string>
+    <string name="rajshahi_division">Rajshahi</string>
+    <string name="sylhet_division">Sylhet</string>
+    <string name="rangpur_division">Rangpur</string>
+    <string name="barisal_division">Barisal</string>
+    <string name="khulna_division">Khulna</string>
+    <string name="mymensingh_division">Mymensingh</string>
+
+
+    <string-array name="district_of_dhaka_string">
+
+        <item>Dhaka</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Gopalganj</item>
+        <item>Gazipur</item>
+        <item>Tangail</item>
+        <item>Kishoreganj</item>
+        <item>Manikganj</item>
+        <item>Rajbari</item>
+        <item>Faridpur</item>
+        <item>Munshiganj</item>
+        <item>Shariatpur</item>
+        <item>Madaripur</item>
+
+    </string-array>
+
+    <string-array name="district_of_chittagong_string">
+
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Comilla</item>
+        <item>Lakshmipur</item>
+        <item>Feni</item>
+        <item>Noakhali</item>
+        <item>Khagrachhari</item>
+        <item>Rangamati</item>
+        <item>Chittagong</item>
+        <item>Bandarban</item>
+        <item>cox\'s Bazar</item>
+    </string-array>
+
+
+    <string-array name="district_of_rajshahi_string">
+
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Bogra</item>
+        <item>Chapainawabganj</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+        <item>Natore</item>
+        <item>Pabna</item>
+    </string-array>
+
+
+    <string-array name="district_of_sylhet_string">
+
+        <item>Syhet</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Habiganj</item>
+    </string-array>
+
+
+    <string-array name="district_of_rangpur_string">
+
+        <item>Panchagarh</item>
+        <item>Nilphamari</item>
+        <item>ThakurGaon</item>
+        <item>Lalmonirhat</item>
+        <item>Kurigram</item>
+        <item>Rangpur</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+    </string-array>
+
+    <string-array name="district_of_barisal_string">
+        <item>Barisal</item>
+        <item>Pirojpur</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Barguna</item>
+    </string-array>
+
+
+    <string-array name="district_of_khulna_string">
+
+        <item>Kushtia</item>
+        <item>Meherpur</item>
+        <item>Chuadanga</item>
+        <item>Jhenaidah</item>
+        <item>Magura</item>
+        <item>Narail</item>
+        <item>jessore</item>
+        <item>Satkhira</item>
+        <item>Khulna</item>
+        <item>Bagerhat</item>
+    </string-array>
+
+    <string-array name="district_of_mymensingh_string">
+
+        <item>Sherpur</item>
+        <item>Jamalpur</item>
+        <item>Netrokuna</item>
+        <item>Mymensingh</item>
+    </string-array>
+
+
+    <string-array name="hospitals_list_string">
+
+        <item>Apollo Hospitals</item>
+        <item>Square Hospital Ltd</item>
+        <item> United Hospital Limited</item>
+        <item>BIRDEM Hospital</item>
+        <item>Ibn-Sina Medical College and Hospital</item>
+        <item>National Heart Foundation</item>
+        <item>Labaid Cardiac and Specialized Hospital</item>
+        <item>Ibrahim Cardiac Hospital and Research Centre</item>
+        <item>Forties escorts heart institute and AFC Health</item>
+        <item> Islami Bank Hospital</item>
+        <item> Isphahani Islamia Eye Institute and Hospital</item>
+        <item> Ad-din Hospital Ltd</item>
+        <item> Centre For The Rehabilitation of the Paralyzed</item>
+        <item>Gastro-liver Hospital And Research Institute</item>
+        <item>Green Life Medical College and Hospital</item>
+        <item> Holy family Red Crescent Medical College Hospital </item>
+        <item>Popular Specialized Hospital Ltd </item>
+        <item> Jahirul Islam Medical College Hospital </item>
+        <item> Japan Bangladesh Friendship Hospital </item>
+        <item> Delta Hospital Ltd </item>
+        <item>Bangladesh Specialized Hospital</item>
+        <item>Uttara Crescent Hospital</item>
+        <item>Enam Medical College Hospital</item>
+        <item>Marie Stopes Health Clinic</item>
+        <item>Bangladesh Medical College Hospital</item>
+        <item>Al-Helal Specialist Hospital</item>
+        <item>Ayesha Memorial Specialized Hospital</item>
+        <item>Anwer Khan Modern Hospital Ltd</item>
+        <item>Central Hospital</item>
+        <item>Shamorita Hospital</item>
+        <item> Lamb Hospital</item>
+        <item> Zia Heart Foundation</item>
+        <item>Jahirul Islam Medical College and Hospital</item>
+        <item> Kumudini Medical College and Hospital</item>
+        <item> Noorjahan Hospital</item>
+        <item>Oasis Hospital Sylhet</item>
+        <item> Jalalabad Ragib Rabeya Medical College</item>
+        <item>TMSS Medical College and Hospital</item>
+        <item>Fuad aL Khatib Hospital</item>
+        <item>Chattagram Maa Shishu o General Hospital</item>
+        <item>Chittagong Metropolitan Hospital Pvt Ltd</item>
+        <item>Community Based Medical College Hospital</item>
+        <item>K Zaman BNSB Eye Hospital</item>
+        <item>Prime Hospital prvt Ltd</item>
+        <item>Prime Medical College Hospital</item>
+        <item>Ambia memorial hospital</item>
+        <item>Al arafa clinic</item>
+        <item>Islami Bank Medical College and Hospital</item>
+        <item>D Hospital Hatemkha</item>
+    </string-array>
+
+
+    <string-array name="specialists_list_string">
+
+        <item>Psychiatrist</item>
+        <item>Physical Medicine and Rehabilitation</item>
+        <item>Skin Specialist</item>
+        <item>Paralysis</item>
+        <item>Arthritis Pain</item>
+        <item>Venereology</item>
+        <item>Diabetes</item>
+        <item>Sonologist</item>
+        <item>Radiotherapist</item>
+        <item>Oral and Dental Surgery</item>
+        <item>Endoscopist</item>
+        <item>Ortho Surgery</item>
+        <item>Laparoscopic Surgery</item>
+        <item>Nutritionist</item>
+        <item>Paediatrics</item>
+        <item>Rehabilitation Medicine</item>
+        <item>Orthopedician</item>
+        <item>Nephrology</item>
+        <item>Oncology</item>
+        <item>Pediatric Endocrinology</item>
+        <item>Hepatopencreatobiliary Surgery</item>
+        <item>Neuro Medicine</item>
+        <item>Neuro Surgeon</item>
+        <item>General Physician</item>
+        <item>Dentist</item>
+        <item>Physiotheraapist</item>
+        <item>Neonatology</item>
+        <item>Radiotherapy and Oncology</item>
+        <item>Colo-rectal Surgery</item>
+        <item>Radiology and Imaging</item>
+        <item>Vascular Surgery</item>
+        <item>Physiatrist</item>
+        <item>Plastic and Re-constructive Surgery</item>
+        <item>Pathology</item>
+    </string-array>
+
+
+</resources>
+
+

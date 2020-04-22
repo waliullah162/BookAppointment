@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/colorPrimary"
+        android:background="#76EE7D"
+
+        >
+
+
+      <TextView
+          android:id="@+id/toolbar_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Book Appointment"
+          android:textColor="@android:color/white"
+          style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:paddingLeft="10dp"
+          />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageViewId"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#3f51b5"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="2"
+        app:civ_shadow_color="#3f51b5"
+        android:layout_centerInParent="true"
+
+        />
+
+    <TextView
+
+        android:id="@+id/clearbtnTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear All"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/circularImageViewId"
+        android:layout_alignParentRight="true"
+        android:paddingRight="25dp"
+        android:textColor="#16D621"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+
+
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <Button
+        android:id="@+id/locationBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/right_arrow"
+        android:text="Location"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingRight="24dp"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+    <Button
+        android:id="@+id/hospitalBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/right_arrow"
+        android:text="Hospital"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingRight="24dp"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/specialitiesBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/right_arrow"
+        android:text="Specialities"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingRight="24dp"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:id="@+id/dateBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/calender"
+        android:text="Select Date"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingRight="24dp"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+
+        />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+
+        <Button
+            android:id="@+id/availableDoctorSearchBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:text="SEARCH AVAILABLE DOCTOR"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="24dp"
+            android:background="@drawable/solid_color"
+            android:paddingBottom="5dp"
+            android:paddingRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/white"
+
+
+
+
+
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
